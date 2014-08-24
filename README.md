@@ -1,3 +1,21 @@
+
+## Programming Assignment 
+
+The functions can calculate the inverse of a square invertible matrix. The makeCacheMatrix creates a special "matrix" object that can cache its inverse and the matrix itself. R's lexical scoping provides faster computation if the special matrix is reused. 
+
+    Usage:
+        currentMatrix <- matrix(runif(1,16),4)
+        
+        data <- makeCacheMatrix(currentMatrix)
+        
+        cacheSolve(data) 
+
+
+            *# makeCacheMatrix expects a square invertible matrix as it's input argument *
+            
+            # Usage E.g. data <- makeCacheMatrix(matrix(runif(1,16),4))
+  
+
 ### Introduction
 
 This second programming assignment will require you to write an R
